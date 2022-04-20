@@ -1,12 +1,10 @@
 #include <Arduino.h>
 
-#include "CONFIG.hpp"
 #include <FreeRTOS.h>
 
 #include <ExButton.h>
-#include <IndicatorLED.h>
-
 #include "LEDMatrixController.hpp"
+#include "CONFIG.hpp"
 
 ExButton button(BUTTON_PIN);
 
